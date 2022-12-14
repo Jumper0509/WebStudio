@@ -1,0 +1,34 @@
+/* Hero */
+.hero-title{
+    color: var(--title-text-color);
+}
+
+/* Section */
+.section-title{
+    color: var(--title-text-color);
+}
+
+/* Feature */
+.feature-list .title{
+    color: var(--title-text-color);
+}
+
+/* Comand */
+.comand .title{
+    color: var(--title-text-color);
+}
+
+.button{
+    color: var(--title-text-color);
+}
+
+.button.primary{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary:hover,
+.button.primary:focus{
+    color: var(--primary-white-color);
+    background-color: var(--button-bg-color);
+}
