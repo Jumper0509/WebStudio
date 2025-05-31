@@ -4,6 +4,8 @@
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
     --button-bg-color: #188CE8;
+    --button-sec-bg: #F5F4FA;
+    --contact-text-color: rgba(255, 255, 255, 0.6)
 }
 
 body {
@@ -24,6 +26,10 @@ body {
 .logo {
     color: #000000;
     font-family: Raleway;
+}
+
+.logo .logo-color{
+    color: var(--button-bg-color);
 }
 
 /* Site nav */
@@ -48,4 +54,13 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
     color: var(--accent-color);
+}
+
+.adress{
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+}
+
+.adress .contact{
+color: var(--contact-text-color);
 }

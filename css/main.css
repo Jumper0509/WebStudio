@@ -32,3 +32,13 @@
     color: var(--primary-white-color);
     background-color: var(--button-bg-color);
 }
+
+.button.secondary{
+    background-color: var(--button-sec-bg);
+}
+
+.button.secondary:hover,
+.button.secondary:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
